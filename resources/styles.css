@@ -18,3 +18,19 @@ body {
     font-size: 16px;
     font-weight: normal;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Hides scrollbars if they appear */
+}
+
+iframe {
+    width: 100vw;   /* 100% of the viewport width */
+    height: 100vh;  /* 100% of the viewport height */
+    position: absolute; /* Positions the iframe relative to the viewport */
+    top: 0;
+    left: 0;
+    border: none; /* Removes default iframe border */
+}
